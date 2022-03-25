@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="566.0" prefWidth="663.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="paiementController">
+   <children>
+      <TextField fx:id="idfacture" layoutX="138.0" layoutY="162.0" prefHeight="25.0" prefWidth="170.0" />
+      <TextField fx:id="date" layoutX="138.0" layoutY="213.0" prefHeight="25.0" prefWidth="170.0" />
+      <TextField fx:id="montant" layoutX="138.0" layoutY="258.0" prefHeight="25.0" prefWidth="170.0" />
+      <Label alignment="CENTER" layoutX="42.0" layoutY="6.0" prefHeight="42.0" prefWidth="307.0" text="ENREGISTRER FACTURE">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="162.0" prefHeight="25.0" prefWidth="83.0" text="IDFACTURE:" />
+      <Label layoutX="15.0" layoutY="213.0" prefHeight="25.0" prefWidth="83.0" text="DATE_FACTURE" />
+      <Label layoutX="24.0" layoutY="258.0" prefHeight="25.0" prefWidth="83.0" text="MONTANT" />
+      <Button fx:id="valide" layoutX="201.0" layoutY="330.0" mnemonicParsing="false" onAction="#valideon" prefHeight="31.0" prefWidth="99.0" text="VALIDE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <ComboBox fx:id="paiement" layoutX="466.0" layoutY="131.0" prefHeight="31.0" prefWidth="163.0" promptText="MODE_PAIEMENT" />
+   </children>
+</AnchorPane>
