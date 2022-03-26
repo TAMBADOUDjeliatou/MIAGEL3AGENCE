@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="471.0" prefWidth="645.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.connecterController">
+   <children>
+      <AnchorPane layoutX="88.0" layoutY="55.0" prefHeight="361.0" prefWidth="469.0" style="-fx-background-color: green;">
+         <children>
+            <TextField fx:id="email" layoutX="173.0" layoutY="113.0" prefHeight="25.0" prefWidth="163.0" />
+            <TextField fx:id="mdp" layoutX="173.0" layoutY="168.0" prefHeight="25.0" prefWidth="163.0" />
+            <Text layoutX="63.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PSEUDO" wrappingWidth="73.13671875" />
+            <Text layoutX="63.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PASSWORD" wrappingWidth="73.13671875" />
+            <Button fx:id="confi" layoutX="195.0" layoutY="252.0" mnemonicParsing="false" onAction="#conficlick" prefHeight="37.0" prefWidth="99.0" text="confirme" />
+         </children>
+      </AnchorPane>
+      <Label alignment="CENTER" layoutX="87.0" layoutY="14.0" prefHeight="45.0" prefWidth="469.0" text="IDENTIFICATION" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

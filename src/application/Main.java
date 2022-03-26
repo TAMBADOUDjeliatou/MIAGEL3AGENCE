@@ -16,7 +16,7 @@ public class Main extends Application {
 	public void start(Stage primaryStage)  {
 		Parent root;
 		try { 
-			root= FXMLLoader.load(getClass().getClassLoader().getResource("../com.Paiement/paiement.fxml"));
+			root=  FXMLLoader.load(getClass().getResource("connecter.fxml"));
 			
 			Scene scene = new Scene(root);
 			
